@@ -1,0 +1,280 @@
+body {
+	font-family: 'Roboto', sans-serif;
+
+}
+
+#nav-bar {
+	max-width: 500px;
+	position: fixed;
+	top: 0;
+	right: 12px;
+	display: flex;
+	flex-direction: row;
+	z-index: 5;
+}
+
+#menu {
+	display: flex;
+	flex-direction: row;
+	padding-top: 25px;	
+}
+
+.menu-item {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 0.8em;
+	color: #707070;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-decoration: none;
+	letter-spacing: 0.1em; 
+}
+
+.menu-item:hover {
+	color: #A9C8F6;
+	text-decoration: ;
+}
+
+.menu-item.active::before { 
+  position: absolute;
+  top: 25px;
+  left: 110px;
+  content: "";
+  height: 10px;
+  width: 75px;
+  background-color: #A9C8F6;
+  opacity: 0.25;
+}
+
+#content {
+	position: relative;
+	justify-content: center;
+	align-content: center;
+	display: flex;
+	flex-direction: column;
+}
+
+#nav-bar2 {
+	top: 150px;
+	position: relative;
+	justify-content: center;
+	align-content: center;
+	display: flex;
+	flex-direction: row;
+}
+
+#tabs {
+	display: flex;
+	flex-direction: row;
+}
+
+.graphic-tab {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	color: #A9C8F6;
+	padding-left: 50px;
+	padding-right: 50px;
+	text-decoration: none;
+	letter-spacing: 0.1em;
+	text-decoration: line-through;
+}
+
+.ux-tab {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	color: #707070;
+	padding-left: 50px;
+	padding-right: 50px;
+	text-decoration: none;
+	letter-spacing: 0.1em; 
+}
+
+.ux-tab:hover {
+	color: #A9C8F6;
+}
+
+.pictures {
+	top: 200px;
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	align-content: center;
+	padding-bottom: 200px;
+}
+
+.pictures img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+.container-1{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+#picture-1 {
+	max-width: 500px;
+	max-height: 250px;
+}
+
+.container-2 {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+}
+
+#picture-2{
+	max-height: 250px;
+	max-width: 200px;
+	margin-top: 15px;
+}
+
+.container-3 {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+
+}
+#picture-3 {
+	max-width: 250px;
+	max-height: 250px;
+}
+
+#picture-4 {
+	max-width: 250px;
+	max-height: 250px;
+}
+
+#picture-5{
+	max-height: 250px;
+	max-width: 250px;
+	margin-top: 25px;
+	margin-left: 70px;
+}
+
+.hidden {
+    display: none;
+}
+#lightbox-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.lightbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+}
+.lightbox img {
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.lightbox .caption {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    background: white;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.loader {
+  position: relative;
+  width: 80px;
+  margin: 100px auto;
+  height: 100%;
+  display: block;
+}
+
+#loader{
+	display: flex;
+	justify-content: center;
+}
+
+#loading{
+	display: none;
+}
+
+.duo {
+  height: 20px;
+  width: 50px;
+  background: hsla(0, 0%, 0%, 0.0);
+  position: absolute;
+  
+}
+
+.duo, .dot {
+  animation-duration: 0.8s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.duo1 {
+  left: 0;
+}
+
+.duo2 {
+  left: 30px
+}
+
+
+.dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background: #333;
+  position: absolute;
+}
+
+.dot-a {
+  left: 0px;  
+}
+
+.dot-b {
+  right: 0px;
+}
+
+
+@keyframes spin {
+    0% { transform: rotate(0deg) }
+   50% { transform: rotate(180deg) }
+  100% { transform: rotate(180deg) }
+}
+
+@keyframes onOff {
+    0% { opacity: 0; }
+   49% { opacity: 0; }
+   50% { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+.duo1 {
+  animation-name: spin;
+}
+
+.duo2 {
+  animation-name: spin;
+  animation-direction: reverse;
+}
+
+.duo2 .dot-b {
+  animation-name: onOff;
+}
+
+.duo1 .dot-a {
+  opacity: 0;
+  animation-name: onOff;
+  animation-direction: reverse;
+}
+
+
