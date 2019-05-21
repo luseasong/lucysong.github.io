@@ -128,9 +128,8 @@ body {
 }
 
 #picture-2{
-	max-height: 250px;
+	max-height: 500px;
 	max-width: 200px;
-	margin-top: 15px;
 }
 
 .container-3 {
@@ -150,10 +149,8 @@ body {
 }
 
 #picture-5{
+	max-width: 500px;
 	max-height: 250px;
-	max-width: 250px;
-	margin-top: 25px;
-	margin-left: 70px;
 }
 
 .hidden {
