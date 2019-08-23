@@ -31,6 +31,18 @@ function unhideLightbox5() {
 }
 document.getElementById('picture-5').onclick = unhideLightbox5;
 
+function unhideLightbox6() {
+	unhideLightbox('calpico1');
+}
+document.getElementById('picture-6').onclick = unhideLightbox5;
+
+function unhideLightbox5() {
+	unhideLightbox('calpico2');
+}
+document.getElementById('picture-7').onclick = unhideLightbox5;
+
+
+
 
 function closeLightbox(lightboxID) {
 	// This adds the .hidden class to the #lightbox-overlay div
