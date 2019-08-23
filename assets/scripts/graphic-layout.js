@@ -36,7 +36,7 @@ function unhideLightbox6() {
 }
 document.getElementById('picture-6').onclick = unhideLightbox5;
 
-function unhideLightbox5() {
+function unhideLightbox7() {
 	unhideLightbox('calpico2');
 }
 document.getElementById('picture-7').onclick = unhideLightbox5;
