@@ -159,6 +159,22 @@ body {
 	max-height: 200px;
 }
 
+.container-5 {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+}
+
+#picture-6{
+	max-height: 250px;
+	max-width: 500px;
+}
+
+#picture-7{
+	max-height: 250px;
+	max-width: 500px;
+}
+
 .hidden {
     display: none;
 }
