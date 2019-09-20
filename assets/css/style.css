@@ -82,6 +82,16 @@ body {
 	font-size: 18px;
 	}
 
+#more-intro-text {
+	font-family: 'Roboto', sans-serif;
+	color: #707070;
+	text-align: center;
+	position: relative;
+	top: 0;
+	max-width: 550px;
+	font-size: 18px;
+	}
+
 #location {
 	color: ##A9C8F6;
 	font-family: 'Roboto', sans-serif;
