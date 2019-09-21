@@ -3,6 +3,11 @@ body {
 
 }
 
+a:hover {
+  color: #A9C8F6;
+  text-decoration: ;
+}
+
 #nav-bar {
 	max-width: 500px;
 	position: fixed;
