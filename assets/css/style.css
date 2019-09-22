@@ -2,9 +2,13 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
-a:hover {
+a {
   color: #A9C8F6;
-  text-decoration: ;
+  text-decoration: none;
+}
+
+a.underline {
+    text-decoration: underline;
 }
 
 #nav-bar {
