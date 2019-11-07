@@ -110,10 +110,10 @@ a.underline {
 }
 
 #footer {
-		height: 100px;
+		height: 80px;
 		width: 100%;
 		display: flex;
-		bottom: 0px;
+		bottom: 20px;
 		flex-direction: column;
 		position: fixed;
 		border-style: solid;
