@@ -45,6 +45,20 @@ body {
   opacity: 0.25;
 }
 
+.back {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 0.8em;
+	color: #707070;
+	text-decoration: none;
+	letter-spacing: 0.1em;
+}
+
+.back:hover {
+	color: #A9C8F6;
+	text-decoration: ;
+}
+
 #container {
 	position: relative;
 	justify-content: center;
