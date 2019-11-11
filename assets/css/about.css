@@ -5,9 +5,8 @@ body {
 
 #nav-bar {
 	max-width: 500px;
-	position: fixed;
-	top: 0;
-	right: 12px;
+	position: relative;
+	margin-left: auto;
 	display: flex;
 	flex-direction: row;
 	z-index: 5;
@@ -140,10 +139,10 @@ body {
 }
 
 #footer {
-		height: 80px;
+		height: 100px;
 		width: 100%;
 		display: flex;
-		bottom: 20px;
+		bottom: 0px;
 		flex-direction: column;
 		position: fixed;
 		border-style: solid;

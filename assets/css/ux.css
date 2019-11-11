@@ -5,9 +5,8 @@ body {
 
 #nav-bar {
 	max-width: 500px;
-	position: fixed;
-	top: 0;
-	right: 12px;
+	position: relative;
+	margin-left: auto;
 	display: flex;
 	flex-direction: row;
 	z-index: 5;
@@ -41,6 +40,23 @@ body {
   opacity: 0.25;
 }
 
+.back {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 0.8em;
+	color: #707070;
+	text-decoration: none;
+	letter-spacing: 0.1em;
+	margin-left: auto;
+	margin-right: auto;
+	top: 50px;
+    position: relative;
+}
+
+.back:hover {
+	color: #A9C8F6;
+	text-decoration: ;
+}
 
 #nav-bar2 {
 	top: 150px;
@@ -91,37 +107,67 @@ body {
 	align-content: center;
 }
 
-.pictures {
+.grid-container{
+	display: grid;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    top: 175px;
+}
+.grid-img {
 	display: flex;
 	flex-direction: column;
-	top: 200px;
 	position: relative;
 	margin: auto;
-	text-align: center;
-	padding-bottom: 150px;
+	max-width: 500px;
 }
-.pictures img {
-	max-width: 750px;
+
+.grid-img img {
+	max-width: 500px;
 	max-height: 300px;
 }
 
-
-.container-1:hover {
-	opacity: 0.3;
+.msg {
+	font-family: 'Roboto', sans-serif;
+	color: #707070;
+	text-align: left;
+	top: 0;
+	max-width: 750px;
+	font-size: 15px;
+	margin-top: 40px;
+	margin-left: 10px;
 }
 
-.container-2:hover {
-	opacity: 0.3;
+.grid-item-title{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	color: #A9C8F6;
+	position: absolute;
+	transform: rotate(180deg);
+	transform-origin: 0 50%; 
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
 }
 
-.container-3:hover {
-	opacity: 0.3;
+.grid-item{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	top: 15px;
 }
 
-.container-4:hover {
-	opacity: 0.3;
+.archive{
+	font-family: 'Roboto', sans-serif;
+	color: #707070;
 }
 
-.container-5:hover {
+.archive:hover {
+	color: #A9C8F6;
+}
+
+
+.grid-img:hover {
 	opacity: 0.3;
 }

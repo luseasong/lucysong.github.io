@@ -2,15 +2,14 @@ body {
 	font-family: 'Roboto', sans-serif;
 
 }
-
 #nav-bar {
 	max-width: 500px;
-	position: fixed;
-	top: 0;
-	right: 12px;
+	position: relative;
+	margin-left: auto;
 	display: flex;
 	flex-direction: row;
 	z-index: 5;
+	padding-top: 15px;
 }
 
 #menu {
@@ -115,6 +114,7 @@ body {
 	flex-direction: column;
 	position: relative;
 }
+
 
 #picture-1 {
 	max-width: 500px;
