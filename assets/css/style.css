@@ -112,6 +112,10 @@ img {
 	justify-content: center;
 }
 
+#resume img{
+	width: 100%;
+}
+
 #footer {
 		height: 100px;
 		width: 100%;
