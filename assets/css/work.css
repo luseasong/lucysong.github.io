@@ -9,7 +9,6 @@ body {
 	display: flex;
 	flex-direction: row;
 	z-index: 5;
-	padding-top: 15px;
 }
 
 #menu {
