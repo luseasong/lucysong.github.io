@@ -87,6 +87,10 @@ img {
 	
 }
 
+img-circle {
+	border-radius: 50%;
+}
+
 #intro-text {
 	margin-left: 5%;
 	display: block;
