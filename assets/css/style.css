@@ -79,6 +79,7 @@ a.underline {
     margin-right: 25%;
     position: absolute;
     top: 15%;
+	padding-bottom: 100px;
 }
 
 img {
@@ -97,7 +98,6 @@ img {
     margin-block-end: 1em;
     margin-inline-start: 10%;
     margin-inline-end: 0px;
-	padding-bottom: 100px;
 }
 
 #location {
