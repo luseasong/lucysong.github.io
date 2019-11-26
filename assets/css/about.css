@@ -46,7 +46,7 @@ body {
 }
 
 #container {
-	position: fixed;
+	position: absolute;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -120,6 +120,7 @@ body {
 	align-items: center;	
 	flex-direction: column;
 	margin-top: 80px;
+	margin-bottom: 40px;
 }
 
 #resume-link a {
