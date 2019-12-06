@@ -41,6 +41,16 @@ function unhideLightbox7() {
 }
 document.getElementById('picture-7').onclick = unhideLightbox7;
 
+function unhideLightbox8() {
+	unhideLightbox('room');
+}
+document.getElementById('picture-8').onclick = unhideLightbox7;
+
+function unhideLightbox9() {
+	unhideLightbox('window');
+}
+document.getElementById('picture-9').onclick = unhideLightbox7;
+
 
 
 
