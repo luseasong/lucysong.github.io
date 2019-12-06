@@ -173,6 +173,16 @@ body {
 	max-width: 500px;
 }
 
+#picture-8{
+	max-height: 250px;
+	max-width: 500px;
+}
+
+#picture-9{
+	max-height: 250px;
+	max-width: 500px;
+}
+
 .hidden {
     display: none;
 }
